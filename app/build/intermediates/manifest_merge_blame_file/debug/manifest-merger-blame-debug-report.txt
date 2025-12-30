@@ -1,0 +1,222 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.thatfluffyjello.analog"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:9:5-65
+15-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:11:5-79
+17-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:11:22-76
+18
+19    <queries>
+19-->[androidx.camera:camera-extensions:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\b4a68dd146ae5ae28f61abbddeafc40c\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:22:5-26:15
+20        <intent>
+20-->[androidx.camera:camera-extensions:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\b4a68dd146ae5ae28f61abbddeafc40c\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:23:9-25:18
+21            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+21-->[androidx.camera:camera-extensions:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\b4a68dd146ae5ae28f61abbddeafc40c\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:24:13-86
+21-->[androidx.camera:camera-extensions:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\b4a68dd146ae5ae28f61abbddeafc40c\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:24:21-83
+22        </intent>
+23    </queries>
+24
+25    <permission
+25-->[androidx.core:core:1.12.0] C:\Users\ROG\.gradle\caches\transforms-3\f4c1c1fc55d31b0e081dca8f434d6538\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.thatfluffyjello.analog.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.12.0] C:\Users\ROG\.gradle\caches\transforms-3\f4c1c1fc55d31b0e081dca8f434d6538\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.12.0] C:\Users\ROG\.gradle\caches\transforms-3\f4c1c1fc55d31b0e081dca8f434d6538\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.thatfluffyjello.analog.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.12.0] C:\Users\ROG\.gradle\caches\transforms-3\f4c1c1fc55d31b0e081dca8f434d6538\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.12.0] C:\Users\ROG\.gradle\caches\transforms-3\f4c1c1fc55d31b0e081dca8f434d6538\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:13:5-34:19
+32        android:name="com.thatfluffyjello.analog.AnalogApplication"
+32-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:14:9-42
+33        android:allowBackup="true"
+33-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:15:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.12.0] C:\Users\ROG\.gradle\caches\transforms-3\f4c1c1fc55d31b0e081dca8f434d6538\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+35        android:dataExtractionRules="@xml/data_extraction_rules"
+35-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:16:9-65
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:fullBackupContent="@xml/backup_rules"
+38-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:17:9-54
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:18:9-43
+40        android:label="@string/app_name"
+40-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:19:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:20:9-54
+42        android:supportsRtl="true"
+42-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:21:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.AnaLog" >
+44-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:22:9-44
+45        <activity
+45-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:24:9-33:20
+46            android:name="com.thatfluffyjello.analog.MainActivity"
+46-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:25:13-41
+47            android:exported="true"
+47-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:26:13-36
+48            android:theme="@style/Theme.AnaLog" >
+48-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:27:13-48
+49            <intent-filter>
+49-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:28:13-32:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:29:17-69
+50-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:29:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:31:17-77
+52-->C:\Users\ROG\Downloads\anaLog\anaLog\app\src\main\AndroidManifest.xml:31:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <uses-library
+56-->[androidx.camera:camera-extensions:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\b4a68dd146ae5ae28f61abbddeafc40c\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:29:9-31:40
+57            android:name="androidx.camera.extensions.impl"
+57-->[androidx.camera:camera-extensions:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\b4a68dd146ae5ae28f61abbddeafc40c\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:30:13-59
+58            android:required="false" />
+58-->[androidx.camera:camera-extensions:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\b4a68dd146ae5ae28f61abbddeafc40c\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:31:13-37
+59
+60        <service
+60-->[androidx.camera:camera-camera2:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\8402e3c23de2e72aba8379cc5b0addfe\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+61            android:name="androidx.camera.core.impl.MetadataHolderService"
+61-->[androidx.camera:camera-camera2:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\8402e3c23de2e72aba8379cc5b0addfe\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+62            android:enabled="false"
+62-->[androidx.camera:camera-camera2:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\8402e3c23de2e72aba8379cc5b0addfe\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+63            android:exported="false" >
+63-->[androidx.camera:camera-camera2:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\8402e3c23de2e72aba8379cc5b0addfe\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.camera:camera-camera2:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\8402e3c23de2e72aba8379cc5b0addfe\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+65                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+65-->[androidx.camera:camera-camera2:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\8402e3c23de2e72aba8379cc5b0addfe\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+66                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+66-->[androidx.camera:camera-camera2:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\8402e3c23de2e72aba8379cc5b0addfe\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+67        </service>
+68
+69        <activity
+69-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ROG\.gradle\caches\transforms-3\3f7f6d81630338eaefbbd575743a379d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+70-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ROG\.gradle\caches\transforms-3\3f7f6d81630338eaefbbd575743a379d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+71            android:exported="false"
+71-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ROG\.gradle\caches\transforms-3\3f7f6d81630338eaefbbd575743a379d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ROG\.gradle\caches\transforms-3\3f7f6d81630338eaefbbd575743a379d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+73
+74        <meta-data
+74-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ROG\.gradle\caches\transforms-3\6c5fe7d6910a31bf88b80e01c5c3cc19\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+75            android:name="com.google.android.gms.version"
+75-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ROG\.gradle\caches\transforms-3\6c5fe7d6910a31bf88b80e01c5c3cc19\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+76            android:value="@integer/google_play_services_version" />
+76-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ROG\.gradle\caches\transforms-3\6c5fe7d6910a31bf88b80e01c5c3cc19\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ROG\.gradle\caches\transforms-3\cbc09fc27d020137fefef6faf11a5c0f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ROG\.gradle\caches\transforms-3\cbc09fc27d020137fefef6faf11a5c0f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+80            android:authorities="com.thatfluffyjello.analog.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ROG\.gradle\caches\transforms-3\cbc09fc27d020137fefef6faf11a5c0f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ROG\.gradle\caches\transforms-3\cbc09fc27d020137fefef6faf11a5c0f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ROG\.gradle\caches\transforms-3\cbc09fc27d020137fefef6faf11a5c0f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ROG\.gradle\caches\transforms-3\cbc09fc27d020137fefef6faf11a5c0f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ROG\.gradle\caches\transforms-3\cbc09fc27d020137fefef6faf11a5c0f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ROG\.gradle\caches\transforms-3\865deb5c6b3fdf09e10eaf269e70f602\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ROG\.gradle\caches\transforms-3\865deb5c6b3fdf09e10eaf269e70f602\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ROG\.gradle\caches\transforms-3\865deb5c6b3fdf09e10eaf269e70f602\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+90                android:value="androidx.startup" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+91        </provider>
+92
+93        <activity
+93-->[androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\ROG\.gradle\caches\transforms-3\708b64de69295d687e0131a22c52b2be\transformed\jetified-ui-test-manifest-1.6.1\AndroidManifest.xml:23:9-25:39
+94            android:name="androidx.activity.ComponentActivity"
+94-->[androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\ROG\.gradle\caches\transforms-3\708b64de69295d687e0131a22c52b2be\transformed\jetified-ui-test-manifest-1.6.1\AndroidManifest.xml:24:13-63
+95            android:exported="true" />
+95-->[androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\ROG\.gradle\caches\transforms-3\708b64de69295d687e0131a22c52b2be\transformed\jetified-ui-test-manifest-1.6.1\AndroidManifest.xml:25:13-36
+96        <activity
+96-->[androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\ROG\.gradle\caches\transforms-3\9bbab22921e5176e5d1639e965ce9b32\transformed\jetified-ui-tooling-release\AndroidManifest.xml:23:9-25:39
+97            android:name="androidx.compose.ui.tooling.PreviewActivity"
+97-->[androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\ROG\.gradle\caches\transforms-3\9bbab22921e5176e5d1639e965ce9b32\transformed\jetified-ui-tooling-release\AndroidManifest.xml:24:13-71
+98            android:exported="true" />
+98-->[androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\ROG\.gradle\caches\transforms-3\9bbab22921e5176e5d1639e965ce9b32\transformed\jetified-ui-tooling-release\AndroidManifest.xml:25:13-36
+99
+100        <service
+100-->[androidx.room:room-runtime:2.6.1] C:\Users\ROG\.gradle\caches\transforms-3\e204331078bd39c4f383562d410a2a4b\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+101            android:name="androidx.room.MultiInstanceInvalidationService"
+101-->[androidx.room:room-runtime:2.6.1] C:\Users\ROG\.gradle\caches\transforms-3\e204331078bd39c4f383562d410a2a4b\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+102            android:directBootAware="true"
+102-->[androidx.room:room-runtime:2.6.1] C:\Users\ROG\.gradle\caches\transforms-3\e204331078bd39c4f383562d410a2a4b\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+103            android:exported="false" />
+103-->[androidx.room:room-runtime:2.6.1] C:\Users\ROG\.gradle\caches\transforms-3\e204331078bd39c4f383562d410a2a4b\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+104
+105        <receiver
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+106            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+107            android:directBootAware="false"
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+108            android:enabled="true"
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+109            android:exported="true"
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+110            android:permission="android.permission.DUMP" >
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+112                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+115                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+116            </intent-filter>
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+118                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+121                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ROG\.gradle\caches\transforms-3\711a7a0eaec6ba030513717c7ffa40af\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+122            </intent-filter>
+123        </receiver>
+124    </application>
+125
+126</manifest>
